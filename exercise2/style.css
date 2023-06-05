@@ -1,0 +1,35 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 250px;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    input[type="submit"] {
+      width: 100px;
+      padding: 10px;
+    }
+
+    #submitted-data {
+      margin-top: 20px;
+      text-align: center;
+    }
