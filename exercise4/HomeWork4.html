@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Adding an image to a webpage -->
+    <img src="https://m.media-amazon.com/images/I/41ZZWEz2CoL._SX323_BO1,204,203,200_.jpg" alt="Description of the image">
+    <!-- Responsive image with different resolutions -->
+    <picture>
+        <source srcset="image-small.jpg" media="(max-width: 600px)">
+        <source srcset="https://m.media-amazon.com/images/I/51P-JPfQsHL._SX332_BO1,204,203,200_.jpg">
+        <img src="image-large.jpg" alt="Description of the image">
+    </picture>
+    <!-- Creating an image map with clickable areas -->
+    <img src="https://m.media-amazon.com/images/I/51V0-eYavEL._SX323_BO1,204,203,200_.jpg" 
+    alt="Description of the image" usemap="#map">
+    <map name="map">
+      <area shape="rect" coords="0,0,50,50" href="page1.html" alt="Link 1">
+      <area shape="circle" coords="100,100,50" href="page2.html" alt="Link 2">
+    </map>
+    <!-- setting the background color of an element -->
+    <div style="background-color: #FF0000; margin-top: 1rem">
+        This div has a red background color.
+    </div>
+    <!-- Applying text color -->
+    <p style="color: blue;">
+        This paragraph has blue text color.
+    </p>
+      <p class="highlight">
+        This paragraph has a yellow background color and black text color.
+      </p>
+      
+      
+      
+
+          
+
+</body>
+</html>
